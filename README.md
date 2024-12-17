@@ -71,4 +71,5 @@ django-bootstrap-v5: Integrace Bootstrap 5
 
 django-leaflet: Podpora pro mapové funkce
 
+
 django-fontawesome: Integrace FontAwesome ikon
