@@ -1,0 +1,93 @@
+
+
+    .honey-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Zarovnání na střed horizontálně */
+        margin-top: 20px;
+        /* Přidání mezery od horní části */
+    }
+
+    .honey-container .top {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        margin-left: -4rem;
+    }
+
+
+    .honey-container .bottom {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 10px;
+        margin-top: -2rem;
+        width: 100%;
+    }
+
+    .honey-container .bottom .honey-border:first-child {
+        margin-left: 5rem;
+    }
+
+    .honey-button {
+        clip-path: polygon(49% 2%, 98% 26%, 98% 73%, 50% 98%, 2% 74%, 2% 26%);
+        display: block;
+        min-width: 8.438rem;
+        min-height: 8.125rem;
+        max-width: 8.438rem;
+        max-height: 8.125rem;
+        background-color: #003366;
+
+    }
+
+    .honey-border {
+        /* margin: 0.2rem;
+        padding: 0.2rem; */
+        background-color: white;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    }
+
+    .honey-link {
+        background-color: #003366(255, 255, 0, 0.459);
+        min-width: 9rem;
+        height: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -0.8rem;
+        color: white;
+        font-size: 1rem;
+    }
+
+
+
+    @media (max-width: 768px) {
+        .honey-container .top,
+        .honey-container .bottom {
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-left: 0;
+            margin-top: 0;
+        }
+    
+        .honey-container .bottom .honey-border:first-child {
+            margin-left: 0;
+        }
+    
+        .honey-container .top .honey-border:last-child,
+        .honey-container .bottom .honey-border:last-child {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+    }
+    
+    @media (max-width: 424px) {
+        .honey-container .top .honey-border:last-child,
+        .honey-container .bottom .honey-border:last-child {
+            margin-top: -2rem !important;
+            margin-bottom: -1rem !important;
+        }
+    }
+    

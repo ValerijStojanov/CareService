@@ -1,0 +1,16 @@
+.search-section {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.search-section input, .search-section button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 26px;
+}

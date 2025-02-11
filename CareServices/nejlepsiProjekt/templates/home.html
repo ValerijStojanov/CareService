@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostříhám Top</title>
+    {% load static %}
+
+    <!-- Odkaz na CSS soubor -->
+    <link rel="stylesheet" href="{% static 'styles_home.css' %}">
+    <link rel="stylesheet" href="{% static 'styles_cards.css' %}">
+    <link rel="stylesheet" href="{% static 'styles_honey.css' %}">
+    <link rel="stylesheet" href="{% static 'styles_ranking.css' %}">
+    </head>
+<body>
+    <header>
+        <h1>Ostříhám Top</h1>
+        <p>Vyberte si, co je libo</p>
+    </header>
+
+    <div class="background-section">
+        <div class="logo-container">
+            <img src="{% static 'images/logo_1.webp' %}" alt="Logo" class="logo">
+        </div>
+
+        <div class="honey">
+            <div class="honey-container">
+                <div class="top">
+                <div class="honey-border"><button class="honey-button"><a class="honey-link"  href="">Ženy</a></button></div>
+                <div class="honey-border"><button class="honey-button"><a class="honey-link" href="">Muži</a></button></div>
+                <div class="honey-border"><button class="honey-button"><a class="honey-link" href="">Malé</a></button></div>
+                <div class="honey-border"><button class="honey-button"><a class="honey-link" href="">Velké Salóny</a></button></div>
+                <div class="honey-border"><button class="honey-button"><a class="honey-link" href="">Pro kadeřníky</a></button></div>
+            </div>
+        
+    
+
+
+            <div class="bottom">
+                <div class="honey-border"><button class="honey-button"><a class="honey-link" href="">Velké Salóny</a></button></div>
+                <div class="honey-border"><button class="honey-button"><a class="honey-link" href="">Pejsci</a></button></div>
+                <div class="honey-border"><button class="honey-button"><a class="honey-link" href="">Nejbližší</a></button></div>
+                <div class="honey-border"><button class="honey-button"><a class="honey-link" href="">Barber Shopy</a></button></div>
+                <div class="honey-border"><button class="honey-button"><a class="honey-link" href="">Spolupráce</a></button></div>
+            </div>
+        </div>
+
+        <div class="ranking-section_home">
+            <h2>Top 10 kadeřnických salonů</h2>
+            <ul class="ranking-list">
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon B</h3>
+                            <p class="ranking-city">Brno</p>
+                            <p class="ranking-stars">★★★★☆</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon C</h3>
+                            <p class="ranking-city">Ostrava</p>
+                            <p class="ranking-stars">★★★★☆</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon C</h3>
+                            <p class="ranking-city">Ostrava</p>
+                            <p class="ranking-stars">★★★★☆</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon C</h3>
+                            <p class="ranking-city">Ostrava</p>
+                            <p class="ranking-stars">★★★★☆</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon C</h3>
+                            <p class="ranking-city">Ostrava</p>
+                            <p class="ranking-stars">★★★★☆</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon C</h3>
+                            <p class="ranking-city">Ostrava</p>
+                            <p class="ranking-stars">★★★★☆</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon C</h3>
+                            <p class="ranking-city">Ostrava</p>
+                            <p class="ranking-stars">★★★★☆</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon C</h3>
+                            <p class="ranking-city">Ostrava</p>
+                            <p class="ranking-stars">★★★★☆</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon C</h3>
+                            <p class="ranking-city">Ostrava</p>
+                            <p class="ranking-stars">★★★★☆</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="cards">
+            <div class="cards-container">
+                <div class="partner-card">
+                    <div class="badge">
+                        <img src="{% static 'images/medaile.png' %}" alt="Medaile">
+                    </div>
+                    <div class="rating">★★★★☆</div>
+                    <div class="profile-content">
+                        <div class="profile-picture">
+                            <img src="{% static 'images/profilovka.png' %}" alt="Profilový obrázek">
+                        </div>
+                        <div class="details">
+                            <div class="contact">📞 +420 123 456 789</div>
+                            <div class="hours">⏰ 9:00 - 18:00</div>
+                            <div class="address">
+                                Adresa: Ulice 123, <span class="city">Praha</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="profile-btn">Zobrazit profil</button>
+                </div>
+                <div class="partner-card">
+                    <div class="badge">
+                        <img src="{% static 'images/medaile.png' %}" alt="Medaile">
+                    </div>
+                    <div class="rating">★★★★☆</div>
+                    <div class="profile-content">
+                        <div class="profile-picture">
+                            <img src="{% static 'images/profilovka.png' %}" alt="Profilový obrázek">
+                        </div>
+                        <div class="details">
+                            <div class="contact">📞 +420 123 456 789</div>
+                            <div class="hours">⏰ 9:00 - 18:00</div>
+                            <div class="address">
+                                Adresa: Ulice 123, <span class="city">Praha</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="profile-btn">Zobrazit profil</button>
+                </div>
+                <div class="partner-card">
+                    <div class="badge">
+                        <img src="{% static 'images/medaile.png' %}" alt="Medaile">
+                    </div>
+                    <div class="rating">★★★★☆</div>
+                    <div class="profile-content">
+                        <div class="profile-picture">
+                            <img src="{% static 'images/profilovka.png' %}" alt="Profilový obrázek">
+                        </div>
+                        <div class="details">
+                            <div class="contact">📞 +420 123 456 789</div>
+                            <div class="hours">⏰ 9:00 - 18:00</div>
+                            <div class="address">
+                                Adresa: Ulice 123, <span class="city">Praha</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="profile-btn">Zobrazit profil</button>
+                </div>
+            </div>
+
+        </div>
+
+   
+    <div class="content-section">
+
+       
+
+        <div class="text-section">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, libero nec tristique facilisis, ex erat vehicula odio, in facilisis nunc magna id eros.</p>
+        </div>
+           
+        
+        <a href="dalsi-stranka.html" class="gps-icon">
+        </a>
+
+                    
+
+        <div class="cards-container_table">
+            <!-- Karta 1 -->
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+        
+
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+        
+
+
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+        
+
+
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+        
+
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+        
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+            <div class="partner-card_list_table">
+                <div class="badge_table">
+                    <img src="{% static 'images/medaile.png' %}" alt="Medaile">
+                </div>
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+
+
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+
+            
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+            <div class="partner-card_list_table">
+                
+                <div class="rating_table">★★★★☆</div>
+                <div class="profile-content_table">
+                    <div class="profile-picture_table">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek">
+                    </div>
+                    <div class="details_table">
+                        <div class="contact_table">📞 +420 123 456 789</div>
+                        <div class="hours_table">⏰ 9:00 - 18:00</div>
+                        <div class="address_table">
+                            Adresa: Ulice 123, <span class="city">Praha</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="profile-btn_table">Zobrazit profil</button>
+            </div>
+
+        </div>
+
+    </div>
+
+            
+                
+</div>
+    
+</body>
+</html>

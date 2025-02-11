@@ -1,0 +1,92 @@
+
+
+/* Žebříček sekce */
+.ranking-section {
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 80px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(3, 3, 3, 0.938);
+    max-width: 600px;
+    left: 20px;
+    z-index: 10;
+    color: rgb(207, 18, 18);
+}
+
+/* Nadpis sekce */
+.ranking-section h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #f5f5f5;
+}
+
+/* Seznam žebříčku */
+.ranking-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Položka žebříčku */
+.ranking-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 26px;
+}
+
+/* Obrázek salonu */
+.ranking-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+/* Detaily salonu */
+.ranking-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+/* Název salonu */
+.ranking-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+/* Město salonu */
+.ranking-city {
+    font-size: 26px;
+    color: #b0b0b0;
+}
+
+/* Hodnocení hvězdami */
+.ranking-stars {
+    font-size: 26px;
+    color: gold;
+    margin-left: 10px;
+}
+
+.ranking-link {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.ranking-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+}

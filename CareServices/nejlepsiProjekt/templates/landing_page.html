@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostříhám Top</title>
+    {% load static %}
+
+    <!-- Odkaz na CSS soubory -->
+    <link rel="stylesheet" href="{% static 'styles_landing.css' %}">
+    <link rel="stylesheet" href="{% static 'styles_cards.css' %}">
+    <link rel="stylesheet" href="{% static 'styles_honey.css' %}">
+    <link rel="stylesheet" href="{% static 'styles_ranking.css' %}">
+    <link rel="stylesheet" href="{% static 'styles_interactive_container.css' %}">
+    <link rel="stylesheet" href="{% static 'styles_search-section.css' %}">
+    <link rel="stylesheet" href="{% static 'icon_div.css' %}">
+    
+
+</head>
+<body>
+    <header>
+        <h1>Ostříhám Top</h1>
+        <p>Vyberte si, co je libo</p>
+    </header>
+
+    <div class="logo-container">
+        <img src="{% static 'images/logo_1.webp' %}" alt="Logo" class="logo">
+    </div>
+
+    <div class="gps-icon"></div>
+
+    <div class="search-section">
+        <input type="text" placeholder="Vyberte kraj">
+        <input type="text" placeholder="Vyberte město">
+        <button>Hledat</button>
+    </div>
+
+    <div class="extra-filter-section">
+        <h2>Extra filtr dle Vašich preferencí</h2>
+        <p>Vyberte si dodatečné filtry, které vám pomohou najít ideálního partnera.</p>
+        <div class="extra-filter-options">
+            <div class="filter-item">
+                <img src="{% static 'icons/klimatizace.svg' %}" alt="Klimatizace">
+                <p>Klimatizace</p>
+            </div>
+            <div class="filter-item">
+                <img src="{% static 'icons/batolata.svg' %}" alt="Batolata">
+                <p>Batolata</p>
+            </div>
+            <div class="filter-item">
+                <img src="{% static 'icons/psi_dovoleni.svg' %}" alt="Psi dovoleni">
+                <p>Psi dovoleni</p>
+            </div>
+            <div class="filter-item">
+                <img src="{% static 'icons/platba_kartou.svg' %}" alt="Platba kartou">
+                <p>Platba kartou</p>
+            </div>
+            <div class="filter-item">
+                <img src="{% static 'icons/wifi.svg' %}" alt="Wifi">
+                <p>Wifi</p>
+            </div>
+            <div class="filter-item">
+                <img src="{% static 'icons/napoje.svg' %}" alt="Napoje">
+                <p>Nápoje</p>
+            </div>
+            <div class="filter-item">
+                <img src="{% static 'icons/bio.svg' %}" alt="Bio">
+                <p>Bio</p>
+            </div>
+            <div class="filter-item">
+                <img src="{% static 'icons/bez_barier.svg' %}" alt="Bez bariér">
+                <p>Bez bariér</p>
+            </div>
+            <div class="filter-item">
+                <img src="{% static 'icons/220v.svg' %}" alt="220 V">
+                <p>220 V</p>
+            </div>
+            <div class="filter-item">
+                <img src="{% static 'icons/min_3hvezdy.svg' %}" alt="Min 3hvězdy">
+                <p>Min 3hvězdy</p>
+            </div>
+            <div class="filter-item">
+                <img src="{% static 'icons/euro.svg' %}" alt="Euro">
+                <p>Euro</p>
+            </div>
+        </div>
+    </div>
+
+<div class="flexa" >
+    <div class="left">
+        <div class="ranking-section">
+            <h2>Top 10 kadeřnických salonů</h2>
+            <ul class="ranking-list">
+                <li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li><li class="ranking-item">
+                    <a href="/detail/partnera/1" class="ranking-link">
+                        <img src="{% static 'images/profilovka.png' %}" alt="Salon obrázek" class="ranking-image">
+                        <div class="ranking-details">
+                            <h3 class="ranking-name">Salon A</h3>
+                            <p class="ranking-city">Praha</p>
+                            <p class="ranking-stars">★★★★★</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="top">
+            <div class="interactive-container">
+                <div class="interactive-section">
+                    <div class="section-text">
+                        <h2>Typ služby</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, libero nec tristique facilisis, ex erat vehicula odio, in facilisis nunc magna id eros.</p>
+                        <p>Proin sollicitudin velit id est fermentum tincidunt. Sed eget felis vitae sapien blandit dictum.</p>
+                        <p>Nulla facilisi. Aenean vitae justo nunc. Vivamus tincidunt eros at elit viverra ultrices.</p>
+                    </div>
+                    <div class="hex-container">
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Střih</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Barvení</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Úprava vousů</a></button></div><div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Střih</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Barvení</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Úprava vousů</a></button></div><div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Střih</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Barvení</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Úprava vousů</a></button></div><div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Střih</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Barvení</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Úprava vousů</a></button></div>
+                    </div>
+                </div>
+
+                <div class="interactive-section">
+                    <div class="section-text">
+                        <h2>Typ provozovny</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, libero nec tristique facilisis, ex erat vehicula odio, in facilisis nunc magna id eros.</p>
+                        <p>Proin sollicitudin velit id est fermentum tincidunt. Sed eget felis vitae sapien blandit dictum.</p>
+                        <p>Nulla facilisi. Aenean vitae justo nunc. Vivamus tincidunt eros at elit viverra ultrices.</p>
+                    </div>
+                    <div class="hex-container">
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Malé salóny</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Velké salóny</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Barber shopy</a></button></div><div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Malé salóny</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Velké salóny</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Barber shopy</a></button></div>
+                    </div>
+                </div>
+
+                <div class="interactive-section">
+                    <div class="section-text">
+                        <h2>Pro koho?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, libero nec tristique facilisis, ex erat vehicula odio, in facilisis nunc magna id eros.</p>
+                        <p>Proin sollicitudin velit id est fermentum tincidunt. Sed eget felis vitae sapien blandit dictum.</p>
+                        <p>Nulla facilisi. Aenean vitae justo nunc. Vivamus tincidunt eros at elit viverra ultrices.</p>
+                    </div>
+                    <div class="hex-container">
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Ženy</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Muži</a></button></div>
+                        <div class="honey-border"><button class="honey-button"><a class="honey-link" href="#">Děti</a></button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="card_at_landing">
+                <div class="cards">
+                    <div class="cards-container">
+                        <div class="partner-card">
+                            <div class="badge">
+                                <img src="{% static 'images/medaile.png' %}" alt="Medaile">
+                            </div>
+                            <div class="rating">★★★★☆</div>
+                            <div class="profile-content">
+                                <div class="profile-picture">
+                                    <img src="{% static 'images/profilovka.png' %}" alt="Profilový obrázek">
+                                </div>
+                                <div class="details">
+                                    <div class="contact">📞 +420 123 456 789</div>
+                                    <div class="hours">⏰ 9:00 - 18:00</div>
+                                    <div class="address">
+                                        Adresa: Ulice 123, <span class="city">Praha</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="profile-btn">Zobrazit profil</button>
+                        </div>
+                        <div class="partner-card">
+                            <div class="badge">
+                                <img src="{% static 'images/medaile.png' %}" alt="Medaile">
+                            </div>
+                            <div class="rating">★★★★☆</div>
+                            <div class="profile-content">
+                                <div class="profile-picture">
+                                    <img src="{% static 'images/profilovka.png' %}" alt="Profilový obrázek">
+                                </div>
+                                <div class="details">
+                                    <div class="contact">📞 +420 123 456 789</div>
+                                    <div class="hours">⏰ 9:00 - 18:00</div>
+                                    <div class="address">
+                                        Adresa: Ulice 123, <span class="city">Praha</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="profile-btn">Zobrazit profil</button>
+                        </div>
+                        <div class="partner-card">
+                            <div class="badge">
+                                <img src="{% static 'images/medaile.png' %}" alt="Medaile">
+                            </div>
+                            <div class="rating">★★★★☆</div>
+                            <div class="profile-content">
+                                <div class="profile-picture">
+                                    <img src="{% static 'images/profilovka.png' %}" alt="Profilový obrázek">
+                                </div>
+                                <div class="details">
+                                    <div class="contact">📞 +420 123 456 789</div>
+                                    <div class="hours">⏰ 9:00 - 18:00</div>
+                                    <div class="address">
+                                        Adresa: Ulice 123, <span class="city">Praha</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="profile-btn">Zobrazit profil</button>
+                        </div>
+                        <div class="partner-card">
+                            <div class="badge">
+                                <img src="{% static 'images/medaile.png' %}" alt="Medaile">
+                            </div>
+                            <div class="rating">★★★★☆</div>
+                            <div class="profile-content">
+                                <div class="profile-picture">
+                                    <img src="{% static 'images/profilovka.png' %}" alt="Profilový obrázek">
+                                </div>
+                                <div class="details">
+                                    <div class="contact">📞 +420 123 456 789</div>
+                                    <div class="hours">⏰ 9:00 - 18:00</div>
+                                    <div class="address">
+                                        Adresa: Ulice 123, <span class="city">Praha</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="profile-btn">Zobrazit profil</button>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

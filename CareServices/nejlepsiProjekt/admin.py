@@ -1,3 +1,26 @@
 from django.contrib import admin
+from .models import *
 
-# Register your models here.
+admin.site.register(Media)
+admin.site.register(Region)
+admin.site.register(District)
+admin.site.register(Category)
+admin.site.register(Feature)
+admin.site.register(Level)
+admin.site.register(Role)
+admin.site.register(Service)
+admin.site.register(User)
+admin.site.register(Contact)
+admin.site.register(Partner)
+admin.site.register(Badge)
+admin.site.register(BusinessHour)
+admin.site.register(Product)
+admin.site.register(CoinTransactionType)
+admin.site.register(PartnerBadge)
+admin.site.register(PartnerBusinessHour)
+admin.site.register(PartnerFeature)
+admin.site.register(PartnerMedia)
+admin.site.register(PartnerService)
+admin.site.register(PartnerProduct)
+admin.site.register(Review)
+admin.site.register(CoinTransaction)

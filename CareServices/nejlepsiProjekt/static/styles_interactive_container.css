@@ -1,0 +1,48 @@
+        .interactive-container {
+            display: flex;
+            align-items: end;
+            flex-direction: column;
+            gap: 30px;
+            width: 100%;
+        }
+
+        .interactive-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            height: 400px; 
+            width: 60%; 
+            overflow: hidden;
+
+        }
+
+        .interactive-section .section-text {
+            font-size: 1rem;
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+            text-align: left;
+        }
+
+        .interactive-section .hex-container {
+            display: none;
+        }
+
+        .interactive-section:hover {
+            width: 85%; 
+            /* Expanded width on hover */
+        }
+
+        .interactive-section:hover .section-text {
+            display: none;
+        }
+
+        .interactive-section:hover .hex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }

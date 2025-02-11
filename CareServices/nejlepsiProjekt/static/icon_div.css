@@ -1,0 +1,56 @@
+.extra-filter-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.extra-filter-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.extra-filter-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.extra-filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.filter-item:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.filter-item p {
+    font-size: 0.9rem;
+    color: white;
+    margin: 0;
+}
